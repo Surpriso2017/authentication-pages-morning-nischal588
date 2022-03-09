@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:insta/profile_screen.dart';
+import 'package:insta/bottom_animated_navigation.dart';
+
+import 'bottom_curved_navigation_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +18,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: ProfileScreen());
+        home: BottomAnimatedNavBar());
   }
 }

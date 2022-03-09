@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:insta/bottom_animated_navigation.dart';
 
 class ProfileScreen extends StatefulWidget {
   ProfileScreen({Key? key}) : super(key: key);
